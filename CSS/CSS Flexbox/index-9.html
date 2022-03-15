@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 600px;
+            margin: 0 auto;
+            border: 2px solid #000;
+            display: flex;
+            
+            flex-wrap: wrap;
+            padding: 15px;
+            align-items: center;
+            
+
+        }
+        .item{
+            padding: 10px;
+            height: 50px;
+            margin: 5px;
+            flex-grow: 1;
+        }
+        .part-1{background:red;flex-grow: 2}
+        .part-2{background:blue}
+        .part-3{background:yellow}
+        .part-4{background:green;flex-grow: 2}
+        .part-5{background:#666;}
+        .part-6{background:#999}
+        .part-7{background:#ddd;}
+        .part-8{background:#eee;}
+        .part-9{background:#33e; }
+    </style>
+</head>
+<body>
+    <h1>CSS Flexbox</h1>
+    <div class="container">
+        <div class="item part-1">One</div>
+        <div class="item part-2">Two</div>
+        <div class="item part-3">Three</div>
+        <div class="item part-4">Four</div>
+        <div class="item part-5">Five</div>
+        <div class="item part-6">Six</div>
+<!--
+        <div class="item part-7">Seven</div>
+        <div class="item part-8">Eight</div>
+        <div class="item part-9">Nine</div>
+-->
+    </div>
+</body>
+</html>
